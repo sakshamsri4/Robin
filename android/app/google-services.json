@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "487926510262",
+    "project_id": "robindo-88f00",
+    "storage_bucket": "robindo-88f00.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:487926510262:android:57bf28c284c22439a7ec17",
+        "android_client_info": {
+          "package_name": "com.mycompany.todoblogstarter1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "487926510262-o28i4ps2o1pp38v1lr1fkv309h03clo8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0hjrYQJMuwir_xs-8qtpYTdwm57vJCbE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "487926510262-o28i4ps2o1pp38v1lr1fkv309h03clo8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "487926510262-1678l9u0v8nslt4kip79catlsnlq2d5t.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.todoblogstarter1"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
