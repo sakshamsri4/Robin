@@ -4,14 +4,16 @@ import '../flutter_flow/flutter_flow_util.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class MyTasksScreenWidget extends StatefulWidget {
-  const MyTasksScreenWidget({Key? key}) : super(key: key);
+class CompletedTasksScreenWidget extends StatefulWidget {
+  const CompletedTasksScreenWidget({Key? key}) : super(key: key);
 
   @override
-  _MyTasksScreenWidgetState createState() => _MyTasksScreenWidgetState();
+  _CompletedTasksScreenWidgetState createState() =>
+      _CompletedTasksScreenWidgetState();
 }
 
-class _MyTasksScreenWidgetState extends State<MyTasksScreenWidget> {
+class _CompletedTasksScreenWidgetState
+    extends State<CompletedTasksScreenWidget> {
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override
@@ -35,7 +37,7 @@ class _MyTasksScreenWidgetState extends State<MyTasksScreenWidget> {
         backgroundColor: FlutterFlowTheme.of(context).primaryColor,
         automaticallyImplyLeading: false,
         title: Text(
-          'My Tasks',
+          'Completed Tasks',
           style: FlutterFlowTheme.of(context).title1,
         ),
         actions: [],
@@ -68,21 +70,6 @@ class _MyTasksScreenWidgetState extends State<MyTasksScreenWidget> {
                       ),
                     ),
                   ],
-                ),
-                Padding(
-                  padding: EdgeInsetsDirectional.fromSTEB(10, 10, 0, 0),
-                  child: Row(
-                    mainAxisSize: MainAxisSize.max,
-                    children: [
-                      Text(
-                        'Scheduled Tasks',
-                        style: FlutterFlowTheme.of(context).bodyText1.override(
-                              fontFamily: 'Lexend Deca',
-                              color: FlutterFlowTheme.of(context).secondaryText,
-                            ),
-                      ),
-                    ],
-                  ),
                 ),
                 Padding(
                   padding: EdgeInsetsDirectional.fromSTEB(20, 10, 20, 0),
